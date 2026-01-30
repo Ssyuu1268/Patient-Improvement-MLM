@@ -31,10 +31,19 @@ Observations are not independent because measurements are repeated within the sa
 - Adding **Age** and **Severity** did not significantly improve fit beyond the interaction model.
 
 ## Deliverables
-- Full report: `MLM Summative Assignment.pdf` (in this repo)
+- Full report (PDF): `Modelling Treatment Effects.pdf` (in this repo)
 
-## Tech stack
-R: lme4, lmerTest, ggplot2, sjPlot, effectsize, performance, ggeffects, broom.mixed, dplyr, etc.
+## How to view the report
+GitHub may not always render PDFs in-browser. If the preview fails:
+1. Click `Modelling Treatment Effects.pdf`
+2. Click **Download** (or **View raw**)
+3. Open locally with a PDF viewer (Preview / Adobe Reader)
+
+## Use cases (how the results can be used)
+- **KPI tracking & dashboards:** monitor patient improvement KPIs over time (by hospital / cohort) and visualize trajectory differences for stakeholders.
+- **Intervention impact evaluation:** quantify time-varying treatment effects to support go/no-go decisions and iteration on care programs.
+- **Hospital benchmarking (risk-adjusted):** compare hospitals fairly by accounting for clustering, enabling performance reviews and best-practice sharing.
+- **Resource prioritization & alerts:** identify units or patient segments with slower-than-expected improvement and trigger targeted follow-ups (staffing, coaching, protocol changes).
 
 ---
 Author: Shu-Yu Lin
