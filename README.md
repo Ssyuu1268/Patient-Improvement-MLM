@@ -1,5 +1,4 @@
 # Patient-Improvement-MLM
-Three-level longitudinal MLM to evaluate treatment effects over time (Treatment×Time) while accounting for hospital- and patient-level clustering; reports ICC-based variance decomposition (R).
 
 ## Overview
 This project evaluates whether an **experimental treatment** leads to faster patient improvement over time using **multilevel (mixed-effects) modeling** on a longitudinal dataset where repeated measurements are nested within patients and hospitals. The outcome variable is **Improvement**, and the analysis tests time-varying treatment effects via a **Treatment × Time** interaction.
